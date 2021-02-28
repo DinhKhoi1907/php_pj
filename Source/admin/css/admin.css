@@ -1,0 +1,73 @@
+ul.nav a:focus, ul.nav a:hover, ul.nav .active { background-color: red;} 
+
+#login{
+    padding: 16px 0px 0px 0px;
+}
+
+.containerReg {
+    padding: 16px;
+}
+.containerReg p{
+  padding: 16px;
+}
+.containerReg input[type=text],.containerReg input[type=password], .containerReg input[type=email], .containerReg input[type=number]{
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+.containerReg input[type=text]:focus,.containerReg input[type=password]:focus, .containerReg input[type=email]:focus, .containerReg input[type=number]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+.registerbtn {
+background-color: #4CAF50;
+color: white;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+.registerbtn:hover {
+opacity: 1;
+}
+
+a {
+color: dodgerblue;
+}
+
+.signin {
+background-color: #f1f1f1;
+text-align: center;
+}
+
+.err{
+    color: red;
+    font-size: large;
+}
+.label1
+{
+    width: 100px;
+    text-align: left;
+    font-size: 13px;
+    display:inline-block;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+
+#more{
+  display:none;
+}

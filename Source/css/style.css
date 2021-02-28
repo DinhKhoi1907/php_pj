@@ -1,0 +1,277 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-menu a {
+    font-size: 13px;
+    color: #8a4762;
+    display: inline-block;
+    font-weight: 700;
+    margin:0px;
+}
+.header-menu a:hover {
+   color: red;
+}
+.intro-content{
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    color: rgb(0,0,0);
+    background-color: transparent;
+    font-style: italic;
+    vertical-align: baseline;
+    white-space: pre-wrap;
+}
+.intro-head{
+    margin-bottom: 30px;
+    text-align: center!important;
+    position: relative;
+}
+.intro-listhead li{
+    font-family: 'Nunito', sans-serif;
+    display: inline;
+    padding: 0px 15px;
+    font-size: 18px;
+    
+}
+.intro-list li{
+    list-style-type: disc;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    color: rgb(0,0,0);
+    background-color: transparent;
+    vertical-align: baseline;
+    white-space: pre;
+    line-height: 1.38;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    text-align: justify;
+    margin-left: 40px;
+}
+.slImg img{
+    width: 800px;
+}
+#header-top{
+    background: #ffb0bd;
+}
+
+#header-top-menu a:hover {
+   color: red;
+}
+
+#header-content-menu a {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#header-content-menu a:hover {
+    color:pink;
+}
+
+#header-list {
+    background: #ffb0bd;
+}
+.dropdown-menu.show {
+    background: #FBD6DB;
+}
+
+.dropdown-menu a:hover{
+    color:pink;
+
+}
+.slider-group {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+footer{
+    background: #ffb0bd;
+}
+
+.light{
+    border-top: 5px solid whitesmoke;
+}
+
+.main{
+    display: block;
+}
+
+.title{
+    margin: 20px;
+}
+.title a{
+    color: #000;
+    text-decoration:none;
+}
+.title a:hover{
+    color:pink;
+    text-decoration:none;
+}
+
+.product-item{
+    width:250px;
+    margin-bottom: 20px;
+    height: 464px;
+}
+.user-wrapper {
+    max-width: 600px;
+    margin: 35px auto;
+    border: 5px solid #f5f5f5;
+    border-radius: 3px;
+}
+
+.user-nav {
+    border-bottom: 2px solid #cccccc63;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(146, 146, 146, 0.14);
+}
+
+.user-nav a.active, .user-nav a:hover {
+    border-bottom: 2px solid #ffb0bd;
+}
+
+.user-nav a {
+    width: 50%;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    color: #ffb0bd;
+    text-decoration: none;
+}
+
+.user-nav a.active, .user-nav a:hover {
+    color: #ffb0bd;
+    border-bottom: 2px solid #ffb0bd;
+    text-decoration: none;
+}
+#formAcount input {
+    font-size: 15px;
+    width: 97%;
+    clear: both;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+#formAcount img{
+    margin-left: 10px;
+    margin: 10px;
+}
+
+.user-foot {
+    font-size: 17px;
+}
+.btn-pink {
+    color: #fff;
+    background-color: #ffb0bd;
+    border-color: #ffb0bd;
+    border-radius: .35rem;
+    width: 100%;
+}
+.btn-pink:hover {
+    color: #fff;
+    background-color: #fd8fa1;
+    border-color: #fd8fa1;
+}
+
+
+.label
+{
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+    display:inline-block;
+    margin-right: 5px;
+
+}
+
+
+.data
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+
+.productname
+{
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight:bold;
+    color:#F69;
+}
+
+.price
+{
+    font-size: 18px;
+    font-weight: bold;
+    color:#F93;
+}
+
+.factory
+{
+    font-size: 16px;
+    font-weight: bold;
+    color:#3C6;
+}
+
+.giohang
+{
+    text-align: center;
+}
+
+.card-img-top{
+    width: 248px;
+    height: 248px;
+}
+
+.card-title{
+    width: 208px;
+    height: 84px;
+}
+
+.info{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.form-search .input-group {
+    border: 2px solid #ffb0bd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 33px;
+}
+.form-check-inline{
+    margin-bottom: 10px;
+}
+.err{
+    color: red;
+    font-weight: bold;
+}
+
+.form-check-label{
+    font-style: italic;
+}
+
